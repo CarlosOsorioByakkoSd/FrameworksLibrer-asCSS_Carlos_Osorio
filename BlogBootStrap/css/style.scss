@@ -1,0 +1,199 @@
+//---------------------------------
+// PATRON DE COLORES
+//---------------------------------
+$texto:#111111;
+$principal:#00ACDD;
+$secundario:#00E846;
+//---------------------------------
+// ESTILOS PARA EL ENCABEZADO
+//---------------------------------
+.redes_sociales {
+    background: $principal;
+    padding-top: 3px;
+    text-align: center;
+}
+.redes_sociales a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.redes_sociales a:hover {
+    color: $secundario;
+}
+.encabezado {
+    background: #101010;
+    color: #fff;
+}
+.encabezado .logo {
+    color: white;
+}
+//---------------------------------
+// ESTILOS PARA EL ENCABEZADO : BOTON MENU
+//---------------------------------
+.boton_menu {
+    border: 0;
+    font-size: 2rem;
+    background: transparent;
+    color: #fff;
+}
+.boton_menu:focus {
+    outline: 0
+}
+//---------------------------------
+// ESTILOS PARA EL ENCABEZADO: BLOQUE MENU
+//---------------------------------
+.navbar-nav {
+    text-align: center;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+.navbar-nav a {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 1px solid #fff;
+    text-decoration: none;
+}
+.navbar-nav a:hover,
+.navbar-nav li.active a {
+    color: $principal;
+}
+//---------------------------------
+// ESTILOS PARA EL CAROUSEL
+//---------------------------------
+.carousel-inner img {
+    width: 100%;
+    max-height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+//---------------------------------
+// ESTILOS PARA BUSQUEDAS Y DEMAS
+//---------------------------------
+.card {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.card-header {
+    background: $secundario;
+    color: black;
+}
+.input-group-addon:hover,
+.list-group-item:hover {
+    background: $principal;
+}
+//---------------------------------
+// ESTILOS PARA FOOTER
+//---------------------------------
+.pie_de_pagina {
+    background: rgba(37, 37, 37, 0.89);
+    color: #b5b5b0;
+    font-size: .85em;
+}
+.derechos {
+    background: #101010;
+    font-size: 0.8rem;
+    font-size: 1rem;
+}
+.pie_pagina h3 {
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+    box-shadow: 0 -1px rgba(38, 38, 38, 0.54) inset;
+    padding-bottom: 1rem;
+}
+.informacion_contactenos li {
+    list-style: none;
+    margin: .6em 0;
+}
+.informacion_contactenos li a {
+    color: inherit;
+    text-decoration: none;
+}
+.informacion_contactenos li .fa {
+    margin: 0 .3rem 0 0;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.efecto {
+    transition: all 0.5s ease;
+}
+.efecto:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+#menu_footer ul {
+    list-style: none;
+}
+#menu_footer {
+    flex: 1 1 100%;
+}
+#menu_footer ul a {
+    display: block;
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+    color: inherit;
+    border-bottom: 1px solid #e1dcdc;
+}
+#menu_footer ul a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+#menu_footer ul a:before {
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-left: 0;
+    transition: all 0.2s ease-out;
+}
+#menu_footer ul a:hover::before {
+    left: .3rem;
+}
+//---------------------------------
+// ESTILOS MEDIA QUERIES
+//---------------------------------
+@media (min-width:768px) {
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-nav li {
+        margin: 0 .5rem;
+    }
+    .navbar-nav a {
+        border-top: 0px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-bottom: 2px solid transparent;
+        transition: all .5s ease;
+    }
+    .navbar-nav a:hover,
+    .navbar-nav li.active a {
+        color: $principal;
+        border-bottom: 2px solid;
+    }
+    .navbar-expand-md .navbar-collapse {
+        justify-content: flex-end;
+    }
+    .redes_sociales {
+        background: $principal;
+        padding-top: 3px;
+        text-align: right;
+    }
+}

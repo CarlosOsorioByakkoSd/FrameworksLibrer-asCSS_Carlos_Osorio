@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog Turismo | Materialize</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body id="fondo">
+    <header>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="img/logo.svg" class="responsive-img" alt=""></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">ac_unit</i>Lugares</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">insert_chart</i>Hisotrias de Viajes</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">mail</i>Contactenos</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">home</i>Inicio</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">ac_unit</i>Lugares</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">insert_chart</i>Hisotrias de Viajes</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#"><i class="material-icons left">mail</i>Contactenos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="principal">
+        <div class="row">
+            <div class="col s1 hide-on-med-and-down" id="redes_sociales">
+                <a href="#"><img class="responsive-img" src="img/facebook.svg" alt=""></a>
+                <a href="#"> <img class="responsive-img" src="img/instagram.png" alt=""></a>
+                <a href="#"> <img src="img/youtube.png" alt="" class="responsive-img"></a>
+                <a href="#"> <img src="img/twitter.png" alt="" class="responsive-img"></a>
+            </div>
+            <div class="col s12 m3">
+                <img class="responsive-img z-depth-4" src="img/galeria1.jpg" alt="">
+                <img class="responsive-img z-depth-4" src="img/galeria6.jpg" alt="">
+            </div>
+            <div class="col s12 m5">
+                <img class="responsive-img z-depth-4" src="img/galeria4.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="responsive-img z-depth-4" src="img/galeria2.jpg" alt="">
+                <img class="responsive-img z-depth-4" src="img/galeria5.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col s12 m9">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text" id="post1">
+                        <span class="card-title">¿Qué edición de Gran Turismo Sport debería comprar?</span>
+                        <img src="img/post.jpg" alt="">
+                        <div class="chip">
+                            28 Agosto 2017 <i class="material-icons">date_range</i>
+                        </div>
+                        <div class="chip">
+                            Calle 25 # 65 - 98 <i class="material-icons">add_location</i>
+                        </div>
+                        <p class="text-justify">Ya estamos muy cerca de poder saltar a la pista con Gran Turismo Sport, que llegara a nuestras consolas el 18 de octubre. Una espera que habrá merecido la pena, gracias al cuidadoso trabajo del equipo de Polyphony Digital, capitaneado por el gran Kazunori Yamauchi.</p>
+                        <p> Hace poco conocíamos todos los incentivos que podéis conseguir con la reserva del juego en los distintos establecimientos, lo que unido a toda la variedad de ediciones en la que Gran Turismo Sport estará disponible, crea un enorme abanico de posibilidades para satisfacer a cada fan del simulador de conducción por excelencia de PS4.</p>
+                        <p> Pero si tantas opciones os abruman un poco y aun no habéis podido elegir vuestra combinación ideal no os preocupéis. Hoy estoy aquí para haceros esa decisión mucho más clara y fácil con la Guía de Compra de Gran Turismo Sport.</p>
+                        <P>Todas las ediciones y los distintos incentivos están detallados en un mismo sitio como podéis apreciar, para poder tenerlo a mano y pormenorizar todas y cada una de las ventajas que podréis tener a la hora de hacer vuestra reserva.</P>
+                        <P>¡No esperéis mas y haced ya la reserva de vuestra combinación favorita, para disfrutar al máximo de todo en cuanto empiecen a rugir los motores en PS4 el 18 de octubre!.</P>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="card blue-grey darken-1 white-text">
+                        <span class="card-title ">Deja tu comentario:</span>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Nombre</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="icon_telephone">Correo Electronico</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Mensaje</label>
+                            </div>
+                            <div class="input-field col s12 right-align">
+                                <a class="waves-effect waves-light btn">Enviar</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col s12 m3 center-align">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text" id="autor">
+                        <img class="responsive-img circle" src="img/autor.jpg" alt="">
+                        <span class="card-title">Perfil del Autor</span>
+                        <hr>
+                        <p>Ingeniero de Caminos y MBA. Tras varios años gestionando equipos y recursos combiné mi pasión por viajar con mi profesión tras derivar mis estudios al Marketing Online y CM (Master por la Universidad de Alcalá) además de la gestión de contenidos. Ahora me levanto cada mañana feliz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col s12 m9">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text" id="post1">
+                        <span class="card-title">Gran Turismo Sport en colaboración con McLaren presenta el McLaren Ultimate Vision Gran Turismo</span>
+                        <img src="img/post2.jpg" alt="">
+                        <div class="chip">
+                            20 Septiembre 2017 <i class="material-icons">date_range</i>
+                        </div>
+                        <div class="chip">
+                            Calle 23 # 85 - 98 <i class="material-icons">add_location</i>
+                        </div>
+                        <p>Hoy estoy aquí para confirmar la disponibilidad de un increíble modelo de la casa McLaren desde el mismo lanzamiento de Gran Turismo Sport el próximo 18 de octubre.</p>
+                        <p>El McLaren Ultimate Vision Gran Turismo ha sido diseñado para incorporarse así a la llamada que hizo Kazunori Yamauchi, el creador de la saga exclusiva de PlayStation, de contar con vehículos de grandes marcas diseñados especialmente para competir en Gran Turismo Sport.</p>
+                        <p>Es sin duda otra gran alianza de Gran Turismo Sport que se une a una escudería puntera en el sector del automóvil. McLaren es pionera en el uso de fibra de carbono en la Fórmula 1 aligerando el peso del material de los chasis de los coches de McLaren. Esta característica también podrá verse en la estructura superior y el cuerpo del modelo McLaren Ultimate Vison Gran Turismo, así como en su chasis, que hará que la fibra de carbono ayude a ofrecer un peso de frenada de tan solo 1000 kg.</p>
+                        <P>El McLaren Ultimate Vision Gran Turismo ofrece una tecnología aerodinámica ultra avanzada. Denominada Integrated Active Aero, funciona abriendo diminutas cubiertas de apertura alrededor de las entradas de aire en las superficies claves durante las curvas para generar carga aerodinámica, en lugar de mover las superficies enteras. Esto ofrece los beneficios de aerodinámica activa con un número reducido de partes en movimiento que benefician tanto la complejidad como el peso. Los frenos de disco cerámicos montados en una posición central reducen la masa no suspendida y el conductor también es capaz de monitorizar la temperatura de los frenos durante la carrera.</P>
+                        <P>¡No esperéis mas y haced ya la reserva de vuestra combinación favorita, para disfrutar al máximo de todo en cuanto empiecen a rugir los motores en PS4 el 18 de octubre!.</P>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="card blue-grey darken-1 white-text">
+                        <span class="card-title ">Deja tu comentario:</span>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Nombre</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="icon_telephone">Correo Electronico</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Mensaje</label>
+                            </div>
+                            <div class="input-field col s12 right-align">
+                                <a class="waves-effect waves-light btn">Enviar</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col s12 m3 center-align">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text" id="autor">
+                        <img class="responsive-img circle" src="img/autor2.jpg" alt="">
+                        <span class="card-title">Perfil del Autor</span>
+                        <hr>
+                        <p>Ingeniero de Caminos y MBA. Tras varios años gestionando equipos y recursos combiné mi pasión por viajar con mi profesión tras derivar mis estudios al Marketing Online y CM (Master por la Universidad de Alcalá) además de la gestión de contenidos. Ahora me levanto cada mañana feliz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        //$('.collapsible').collapsible();
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover; }
+
+.top-bar,
+.top-bar ul {
+  background-color: transparent;
+  padding: 0; }
+
+.menu li {
+  border: 1px solid deeppink; }
+
+.menu li:hover {
+  background: #f7e4e1; }
+
+.menu li a {
+  color: black; }
+
+.backpink {
+  background-color: deeppink; }
+
+.usuario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 1rem;
+  border: 1px solid deeppink;
+  margin-bottom: 1rem; }
+
+.usuario p {
+  margin: 0 1rem; }
+
+/*# sourceMappingURL=style.css.map */
